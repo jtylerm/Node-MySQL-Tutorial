@@ -1,0 +1,18 @@
+-- CREATE DATABASE FirstDB;
+
+/*
+
+CREATE TABLE Contact (
+    ID INT(11) NOT NULL AUTO_INCREMENT,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    Email VARCHAR(100),
+    CreatedTimestamp TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY(ID)
+);
+
+*/
+
+-- DROP TABLE Contact;
+
+SELECT * FROM Contact;
